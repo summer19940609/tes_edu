@@ -1,4 +1,5 @@
 /**index.wxss**/
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -18,4 +19,37 @@
 
 .usermotto {
   margin-top: 200px;
+}
+
+/* -------------------- */
+
+/* 授权框 */
+
+.auth-container {
+  width: 80vw;
+  height: 60vh;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.auth-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-tip {
+  text-align: center;
+  font-size: 16px;
+  color: #e91e63;
+}
+
+.btn-auth {
+  width: 100%;
+  height: 50px;
+  background-color: #FFC0CB;
+  color: #fff;
 }

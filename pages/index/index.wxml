@@ -1,7 +1,9 @@
-<!--index.wxml-->
+<!-- index.wxml -->
 <view class="container">
   <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      获取头像昵称
+    </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
@@ -10,4 +12,12 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <!-- 授权框 -->
+  <van-popup wx:if="{{!hasAuth}}" custom-class="auth-container" show="true" bind:close="authClose">
+    <view class="auth-box">
+      <image src="../../images/auth.png" mode="widthFix" style="width:60%;margin:10px;margin-top:10vh;" />
+      <text class="auth-tip">小程序需要您授权个人信息！</text>
+      <button class='btn-auth' open-type="getUserInfo" bindgetuserinfo="getUserInfo">点击授权</button>
+    </view>
+  </van-popup>
 </view>

@@ -1,0 +1,88 @@
+<view class="container">
+  <view class="book-list">
+    <view class="book-item">
+      <view class="book-cover" bind:tap="openBook">
+        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
+      </view>
+      <view class="book-desc">
+        <text class="book-desc-name">合欢花</text>
+        <text class="book-desc-content">
+          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
+          欢花
+        </text>
+      </view>
+    </view>
+    <view class="book-item">
+      <view class="book-cover" bind:tap="openBook">
+        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
+      </view>
+      <view class="book-desc">
+        <text class="book-desc-name">合欢花</text>
+        <text class="book-desc-content">
+          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
+          欢花
+        </text>
+      </view>
+    </view>
+    <view class="book-item">
+      <view class="book-cover" bind:tap="openBook">
+        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
+      </view>
+      <view class="book-desc">
+        <text class="book-desc-name">合欢花</text>
+        <text class="book-desc-content">
+          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
+          欢花
+        </text>
+      </view>
+    </view>
+    <view class="book-item">
+      <view class="book-cover" bind:tap="openBook">
+        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
+      </view>
+      <view class="book-desc">
+        <text class="book-desc-name">合欢花</text>
+        <text class="book-desc-content">
+          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
+          欢花
+        </text>
+      </view>
+    </view>
+    <view class="book-item">
+      <view class="book-cover" bind:tap="openBook">
+        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
+      </view>
+      <view class="book-desc">
+        <text class="book-desc-name">合欢花</text>
+        <text class="book-desc-content">
+          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
+          欢花
+        </text>
+      </view>
+    </view>
+    <view class="book-item">
+      <view class="book-cover" bind:tap="openBook">
+        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
+      </view>
+      <view class="book-desc">
+        <text class="book-desc-name">合欢花</text>
+        <text class="book-desc-content">
+          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
+          欢花
+        </text>
+      </view>
+    </view>
+    <view class="book-item">
+      <view class="book-cover" bind:tap="openBook">
+        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
+      </view>
+      <view class="book-desc">
+        <text class="book-desc-name">合欢花</text>
+        <text class="book-desc-content">
+          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
+          欢花
+        </text>
+      </view>
+    </view>
+  </view>
+</view>

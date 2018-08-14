@@ -1,12 +1,14 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/shelf/shelf",
+    "pages/book/book",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "数字教材",
     "navigationBarTextStyle":"black"
   }
 }
