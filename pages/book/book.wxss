@@ -6,3 +6,15 @@ text {
   margin-bottom: 10px;
   line-height: 1.15;
 }
+
+.book-overlay{
+  background-color: transparent;
+}
+
+.font-change{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
