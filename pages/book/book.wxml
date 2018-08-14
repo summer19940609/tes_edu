@@ -1,4 +1,4 @@
-<view class="container" bindtap='bookFuc'>
+<view class="container color-{{color}}" bindtap='bookFuc'>
 <text style="font-size:{{fontSize}}px;">十岁那年，我在一次作文比赛中得了第一。母亲那时候还年轻，急着跟我说她自己，说她小时候的作文做得还要好，老师甚至不相信那么好的文章会是她写的。“老师找到家来问，是不是家里的大人帮了忙。我那时可能还不到十岁呢。”我听得扫兴，故意笑：“可能?什么叫可能还不到?”她就解释。我装作根本不再注意她的话，对着墙打乒乓球，把她气得够呛。不过我承认她聪明，承认她是世界上长得最好看的女的。她正给自己做一条蓝地白花的裙子。</text>
 <text style="font-size:{{fontSize}}px;">二十岁，我的两条腿残废了。除去给人家画彩蛋，我想我还应该再干点别的事，先后改变了几次主意，最后想学写作。母亲那时已不年轻，为了我的腿，她头上开始有了白发。医院已经明确表示，我的病目前没办法治。母亲的全副心思却还放在给我治病上，到处找大夫，打听偏方，花很多钱。她倒总能找来稀奇古怪的药，让我吃，让我喝，或者是洗、敷、熏、灸。“别浪费时间啦!根本没用!”我说。我一心只想着写小说，仿佛那东西能把残废人救出困境。“再试一回，不试你怎么知道会没用?”她说，每一回都虔诚地抱着希望。然而对我的腿，有多少回希望就有多少回失望。最后一回，我的胯上被熏成烫伤。医院的大夫说，这实在太悬了，对于瘫痪病人，这差不多是要命的事。我倒没太害怕，心想死了也好，死了倒痛快。母亲惊惶了几个月，昼夜守着我，一换药就说：“怎么会烫了呢?我还直留神呀!”幸亏伤口好起来，不然她非疯了不可。</text>
 <text style="font-size:{{fontSize}}px;">后来她发现我在写小说。她跟我说：“那就好好写吧。”我听出来，她对治好我的腿也终于绝望。“我年轻的时候也最喜欢文学，”她说，“跟你现在差不多大的时候，我也想过搞写作，”她说，“你小时的作文不是得过第一?”她提醒我说。我们俩都尽力把我的腿忘掉。她到处去给我借书，顶着雨或冒了雪推我去看电影，像过去给我找大夫、打听偏方那样，抱了希望。</text>
@@ -14,16 +14,20 @@
 </view>
 
 <van-popup position="bottom" custom-class="fuc-container" overlay-class="book-overlay" show="{{fucShow}}" bind:close="fucClose">
-    <view class="font-change">
+    <view class="read-setting">
         <view style="display: inline-block;">字号</view>
-        <view style="margin-left:10px;">
+        <view style="margin-left:20px;">
             <van-stepper value="{{ 16 }}" bind:change="onFontChange" />
         </view>
     </view>
-    <view class="font-change">
-        <view style="display: inline-block;">行间距</view>
-        <view style="margin-left:10px;">
-            <van-stepper value="{{ 16 }}" bind:change="onChange" />
+    <view class="read-setting">
+        <view style="display: inline-block;">颜色</view>
+        <view class="color-choose">
+            <view class="read-color color-2 {{(color==2)?'active':''}}" data-color="2" bindtap="touchColor"></view>
+            <view class="read-color color-3 {{(color==3)?'active':''}}" data-color="3" bindtap="touchColor"></view>
+            <view class="read-color color-4 {{(color==4)?'active':''}}" data-color="4" bindtap="touchColor"></view>
+            <view class="read-color color-5 {{(color==5)?'active':''}}" data-color="5" bindtap="touchColor"></view>
+            <view class="read-color color-6 {{(color==6)?'active':''}}" data-color="6" bindtap="touchColor"></view>
         </view>
     </view>
 </van-popup>
