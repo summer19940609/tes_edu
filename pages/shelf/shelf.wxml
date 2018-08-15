@@ -1,86 +1,12 @@
 <view class="container">
   <view class="book-list">
     <view class="book-item">
-      <view class="book-cover" bind:tap="openBook">
+      <view class="book-cover" bindtap="openBook" data-book-name="合欢树">
         <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
       </view>
       <view class="book-desc">
-        <text class="book-desc-name">合欢花</text>
-        <text class="book-desc-content">
-          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
-          欢花
-        </text>
-      </view>
-    </view>
-    <view class="book-item">
-      <view class="book-cover" bind:tap="openBook">
-        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
-      </view>
-      <view class="book-desc">
-        <text class="book-desc-name">合欢花</text>
-        <text class="book-desc-content">
-          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
-          欢花
-        </text>
-      </view>
-    </view>
-    <view class="book-item">
-      <view class="book-cover" bind:tap="openBook">
-        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
-      </view>
-      <view class="book-desc">
-        <text class="book-desc-name">合欢花</text>
-        <text class="book-desc-content">
-          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
-          欢花
-        </text>
-      </view>
-    </view>
-    <view class="book-item">
-      <view class="book-cover" bind:tap="openBook">
-        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
-      </view>
-      <view class="book-desc">
-        <text class="book-desc-name">合欢花</text>
-        <text class="book-desc-content">
-          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
-          欢花
-        </text>
-      </view>
-    </view>
-    <view class="book-item">
-      <view class="book-cover" bind:tap="openBook">
-        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
-      </view>
-      <view class="book-desc">
-        <text class="book-desc-name">合欢花</text>
-        <text class="book-desc-content">
-          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
-          欢花
-        </text>
-      </view>
-    </view>
-    <view class="book-item">
-      <view class="book-cover" bind:tap="openBook">
-        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
-      </view>
-      <view class="book-desc">
-        <text class="book-desc-name">合欢花</text>
-        <text class="book-desc-content">
-          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
-          欢花
-        </text>
-      </view>
-    </view>
-    <view class="book-item">
-      <view class="book-cover" bind:tap="openBook">
-        <image mode="widthFix" src="https://cdn.pixabay.com/photo/2017/01/23/09/52/water-bottle-2001912__340.jpg" />
-      </view>
-      <view class="book-desc">
-        <text class="book-desc-name">合欢花</text>
-        <text class="book-desc-content">
-          合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合欢花合
-          欢花
+        <text class="book-desc-name">合欢树</text>
+        <text class="book-desc-content">《合欢树》是史铁生怀念母爱的一篇散文。文章用平淡的语调，按时间顺序分别叙述了作者十岁那年由自己作文获奖引发的一件事情、二十岁母亲为他治病和鼓励他写小说的事情以及三十岁以后对母亲的那种压抑在心里、让自己又悲痛又愧疚的思念。
         </text>
       </view>
     </view>

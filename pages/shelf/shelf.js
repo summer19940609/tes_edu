@@ -9,9 +9,10 @@ Page({
   onLoad: function () {
 
   },
-  openBook: function () {
+  openBook: function (e) {
+    console.log(e);
     wx.navigateTo({
-      url: '../book/book'
+      url: '../book/book?book=' + e.currentTarget.dataset.bookName
     })
   }
 })

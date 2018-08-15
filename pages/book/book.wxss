@@ -2,13 +2,13 @@
   background-color: #E3EDCD;
 }
 
-text {
+.article-content {
   text-indent: 2em;
   font-size: 16px;
   font-family: 'Noto Serif', 'Noto Serif CJK SC', 'Noto Serif CJK', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif', 'source-han-serif-sc', serif;
   text-align: justify;
-  margin-bottom: 10px;
-  line-height: 1.15;
+  margin: 5px 0;
+  line-height: 1.5;
 }
 
 .read-setting {
@@ -58,8 +58,81 @@ text {
   background-color: #DCE2F1;
 }
 
-.color-6 {
-  background-color: #FFFFFF;
+.btn-setting {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 60rpx;
+  top: 5px;
+}
+
+.menu-area {
+  margin: 40px 0;
+}
+
+.note {
+  background-color: #FF6666;
+}
+
+.comment-popup {
+  width: 90vw;
+  height: 90vh;
+  background-color: transparent !important;
+}
+
+.comment-list {
+  display: flex;
+  height: 100%;
+}
+
+.comment-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.comment-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 10px;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+.comment-icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  padding: 10px 10px 0 10px;
+}
+
+.comment-content {
+  margin: 10px 0;
+}
+
+.wx-icon {
+  display: flex;
+  align-items: center;
+}
+
+.comment-user-img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  align-self: flex-end;
+  margin: 5px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.hiddenScroll {
+  overflow: hidden;
 }
 
 /* * 河白色 #FFFFFF rgb(255, 255, 255)  
