@@ -46,7 +46,7 @@
     </view>
 </van-popup>
 
-<van-popup custom-class="comment-popup" show="{{commentShow}}" bind:close="commentHide">
+<van-popup custom-class="comment-popup"  overlay-class="comment-mask" show="{{commentShow}}" bind:close="commentHide">
   <scroll-view scroll-y="{{true}}" class="comment-list">
     <view class="comment-item">
       <image class="comment-user-img" src="https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er8rLlibBF8YAQUXWJKORUhfp1dskHvUVBLz6T0CichxuBelkFWMMoJRWxHvEGwgiaMwCcTepWfXvlvQ/132" />
